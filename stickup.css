@@ -2,10 +2,6 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.code { counter-reset: listing; }
-xmp { counter-increment: listing; }
-.code xmp:before { content: counter(listing) ". "; color: gray; }
-
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -29,6 +25,10 @@ body {
 .isStuck{
     left:0px;
     width:100%;
+}
+
+.carousel-caption {
+	padding-bottom:0px;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -81,8 +81,13 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 450px;
+  display:block;
+  min-height: 460px;
   background-color: #0A64A4;
+}
+.carousel-caption img{
+	position:relative;
+	height:130px;
 }
 .carousel-inner > .item > img {
   position: absolute;
