@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>stickUp - a free jQuery Plugin</title>
+
+    <!-- Bootstrap & Snippet plugin core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="stickup.css" rel="stylesheet">    
+  </head>
+  <body>
+    <!-- START THE COVER -->
+    <div id="home" class="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>stickUp</h1>
+              <h3>a jQuery plugin</h4>
+              <p>A simple plugin that <i>"sticks"</i> an element to the top of the browser window while scrolling past it, always keeping it in view.  This plugin works on multi-page sites, but has additional features for one-pager layouts.</p>
+              <p><a class="btn btn-large btn-success" href="http://github.com/LiranCohen/stickUp"><b>Visit GitHub</b></a></p>
+            </div>
+          </div>
+        </div>
+    </div><!-- END COVER -->
+
+    <!-- START THE NAVBAR -->
+    <div class="navbar-wrapper">
+      <div class="container">
+      <div class="navwrapper">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">stickUp</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="menuItem active"><a href="#home">Home</a></li>
+                <li class="menuItem"><a href="#features">Features</a></li>
+                <li class="menuItem"><a href="#updates">Updates</a></li>
+                <li class="menuItem"><a href="#installation">Installation</a></li>
+                <li class="menuItem"><a href="#one-pager">One Pager</a></li>
+                <li class="menuItem"><a href="#extras">Extras</a></li>
+                <li class="menuItem"><a href="#wordpress">Wordpress</a></li>
+                <li class="menuItem"><a href="#contact">Contact</a></li>    
+              </ul>
+            </div>
+          </div>
+        </div> 
+      </div><!-- End Navbar -->
+      
+      </div>
+    </div> <!-- END NAVBAR -->
+
+    <!-- START THE CONTENT -->
+    <div id='contents'>  
+
+      <!-- START THE FEATURES -->   
+      <div id="features" class="row featurette container marketing">
+        <center><h4 style='margin-bottom:0px;margin-top:20px;'>by <b>Liran Cohen</b></h4>
+        <h5 style='margin-top:5px;'><mute>v0.4.5 BETA</mute></h5></center>
+        <!-- Three columns of text -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/simple.png">
+            <h2>Simple Integration</h2>
+            <p><b>stickUp</b> is a jQuery plugin, which you can implement on any webpage alongside jQuery. You can easily make <i>any</i> element, on <i>any</i> page, stick to the top of the browser window as the user scrolls past it.  This feature is excellent for navigation menus, logos and/or contact information, which you may want the user to see at all times.</p>
+            <p><a class="btn btn-default" href="#installation">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="images/onepager.png">
+            <h2>The "One Pager"</h2>
+            <p>Although <b>stickUp</b> was made to work on any kind of website, it was originally designed for the <i>"one-pager"</i> style of websites.  By using CSS the sticky navigation menu item will be highlighted as it's correlating content is crolled in and out of view.</p>
+            <p><a class="btn btn-default" href="#one-pager">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="images/opensource.png">
+            <h2>Open Source</h2>
+            <p>The GNU Lesser General Public License is a free software license published by the Free Software Foundation. The LGPL allows developers and companies to use and integrate LGPL software into their own (even proprietary) software without being required (by the terms of a strong copyleft) to release the source code of their own software-parts.</p>
+            <p><a class="btn btn-default" href="http://www.gnu.org/licenses/lgpl.html">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div> <!-- END FEATURES -->
+
+      <!-- START THE UPDATES -->
+      <div id="updates" class="row featurette">
+        <div class="col-lg-12">
+          <h2 class="featurette-heading">Updates</h2>
+        </div>
+        <div class="col-lg-offset-1 col-lg-10">
+          <h3>Beta version is available! <small><b><i>Nov 1st, 2013</i></b></small></h3>
+          <p>The first version of the <b><i>stickUp</i></b> jQuery plugin has oficially been launched. This is still in Beta and there may be a few bugs, but they are will get sorted out in the coming weeks. Pleaes contact us if you experience any troubles. Check back often for updates on new features.
+          </p>
+        </div>
+        <div class="col-lg-offset-1 col-lg-10">
+          <h3>"One Pager" anchor functionality. <small><b><i>Oct 31st, 2013</i></b></small></h3>
+          <p>Decided to add anchor functionality so that as certain sections of a 'One Pager' style website, like this one, could trigger a CSS change as they're scrolled into view.  That way your users know where they are while they're scrolling through content.  More options are coming for this in the future.
+          </p>
+        </div>
+        <div class="col-lg-offset-1 col-lg-10">
+          <h3>In need of Margin... <small><b><i>Oct 30th, 2013</i></b></small></h3>
+          <p>When I initially made the plugin the goal was to make the element stick to the very top, but after deciding to make an official example page for it I realizd that I loved the look of a floating plugin.  So I added a little feature called <b><i>marginTop</i></b> to the mix.  This allows the element to be caught by it's margin rather than when it hits the top of the page.
+          </p>
+        </div>
+        <div class="col-lg-offset-1 col-lg-10">
+          <h3>stickUp is Alive! <small><b><i>Oct 29th, 2013</i></b></small></h3>
+          <p>I've decided to create a plugin out of necessity.  There are plenty of "sticky nav" jQuery plugins available out there, but none of them seem to work as smoothly as I'd like.  I decided to create my own and out of that stickUp was born! It's not perfect and has it's kinks, but they will be worked out over the coming weeks.
+          </p>
+        </div>
+      </div> <!-- END UPDATES -->
+
+      <!-- START THE INSTALLATION -->
+      <div id="installation" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Installation Instructions.<br> <span class="text-muted">Made simple.</span></h2>
+          <p class="lead">Download or Clone the stickUp javascript file from GitHub. Unpack it into an appropriate directory on your web sever. Make sure you also have jQuery available. If you need information about jQuery please <a href="http://learn.jquery.com/about-jquery/how-jquery-works/">click here</a>.</p>
+          <p class="col-lg-offset-1"><a class="btn btn-large btn-primary" href="http://github.com/LiranCohen/stickUp">Visit GitHub</a><br><br></p>
+          <p class="lead">Now include the stickUp javascript file to load within your website.  Do so by inserting the following code at the end of your footer.  Make sure you're pointing to the correct location of the javascript file.
+          </p>
+          <xmp>
+            <script src="js/stickUp.min.js"></script>
+          </xmp>
+          <p class="lead">Next, simply insert this code at the end of your footer under the stickUp javascript file we added in the last step. Alternitively, you could put the code into existing javascript. Replace <i>'.navbar-wrapper'</i> with the class of the element you would like to become sticky.
+          </p>
+          <xmp>
+            <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+                });
+              });
+
+            </script>
+          </xmp>
+          <p class="lead">That's All!</p>  
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>  <!-- END INSTALLATION -->
+
+      <!-- START THE ONE-PAGER -->
+      <div id="one-pager" class="row featurette">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The "One-Pager" navigation. <span class="text-muted"><br>Try it for yourself.</span></h2>
+          <p class="lead">You have a "one-pager" layout and would like for your sticky navbar to let the user know what they are currently viewing on the page.  Simply follow these instructions in order to enable this functionality.</p>
+          <p class="lead">
+            <b>First,</b> make a list of the different elements within your page that you would like to have as ahcnor points.<br>
+          </p>
+          <p class="lead">
+            <small><i>If these elements do not have an <b>"id="</b> attribute within the element please give them an ID and write it down.</i></small>
+          </p>
+          <p class="lead">
+            <b>Next,</b> modify your <i>stickUp</i> code from before to look like this:
+          </p>
+          <xmp>
+            <script type="text/javascript">
+              //initiating jQuery  
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp({
+                                parts: {
+                                  0:'home',
+                                  1:'features',
+                                  2: 'news',
+                                  3: 'installation',
+                                  4: 'one-pager',
+                                  5: 'extras',
+                                  6: 'wordpress',
+                                  7: 'contact'
+                                },
+                                itemClass: 'menuItem',
+                                itemHover: 'active'
+                              });
+                });
+              });
+            
+            </script>
+          </xmp>
+          <p class="lead">
+            **The numbers above link the particular anchor ID with the menu item which it corrosponds to in order.
+            <br><br>
+            <b>itemClass:</b> is the class of each sticky navigation menu items.<br>
+            <b>itemHover:</b> is the class which modifies the menu item to have a different appearence while it's corrosponding anchor is in view. 
+          </p>
+        </div>
+      </div>  <!-- END ONE-PAGER -->
+
+      <!-- START THE EXTRAS -->
+      <div id="extras" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">A little extra. <br><span class="text-muted">Additional settings.</span></h2>
+          <p class="lead">
+            We're going to continue adding extra settings for this plugin.  Please don't hesitate to make requests for features or settings that aren't natively available currently.
+          </p>
+          <p class="lead">
+            There are two classes that stickUp uses which you should be aware of.<br><br>
+            <b>.stuckMenu</b>: This is added to the sticky div when you first initialize the plugin.<br>
+            <b>.isStuck</b>: This is only added to the sticky div WHILE it is actually stuck, and gets removed when un-stuck.
+          </p>
+          <p class="lead">
+            There is currently one additional option that stickUp offers, with more to come.<br><br>
+            <b>marginTop</b>:
+            Adding this option to your stickUp element will catch the element by a margin. You could either set this to <i>'auto'</i>, which grabs your element's top margin, or to a custom pixel height. Here is an example of how the floating menu works on this webpage.
+          </p>
+          <p>
+            <xmp>
+              <script type="text/javascript">
+                //initializing jQuery
+                jQuery(function($) {
+                  $(document).ready( function() {
+                    //enabling stickUp on the '.navbar-wrapper' class
+                    $('.navbar-wrapper').stickUp({
+                      //enabling marginTop with the 'auto' setting 
+                      marginTop: 'auto'
+                    });
+                });
+              });
+              
+              </script>            
+            </xmp>
+          </p>
+          <p class="lead">
+            This would now get the margin-top value of the '.navbar-wrapper' class and use it as a margin for the scroll catcher's margin.
+          </p>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div> <!-- END EXTRAS -->
+
+      <!-- START THE WORDPRESS -->
+      <div id="wordpress" class="row featurette">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Wordpress.<br><span class="text-muted">Adding functionality.</span></h2>
+          <p class="lead">
+            Setting up stickUp in Wordpress is a breaze.  We are also working on development of a Wordpress Plugin version of stickUp, which will allow for an easy backend to work with and include many features.
+          </p>
+          <p class="lead">
+            It's exactly the same as setting it up on any other website, but here are exact instructions for Wordpress users.
+          </p>
+          <p class="lead">
+            <b>First,</b> you must download the stickUp javascript file <b><i>'stickUp.min.js'</i></b> and place it in a directory called <b><i>'js'</i></b> in your theme's directory. Create this directory if it doesn't already exist. You can get the file from our GitHub.
+          </p>
+          <p class="col-lg-offset-1"><a class="btn btn-large btn-success" href="http://github.com/LiranCohen/stickUp">Visit GitHub</a><br><br></p>
+          <p>
+          <p class="lead">
+            <b>Next,</b> include the stickUp javascript file into Wordpress. Open the file within your teme that includes the footer.  This is most likely <i>'footer.php'</i> or something of that nature, depending on the theme you're using.<br><br>
+            Near the very bottom of the file above the <b><i>'&#60;/body&#62;'</i></b> tag and below the <b><i>'&#60;?php wp_footer(); ?&#62;'</i></b> tag insert the following code.
+          </p>
+          <xmp>
+            <script src="<?php 
+              echo get_stylesheet_directory_uri(); 
+            ?>/js/stickUp.min.js"></script>
+          </xmp>
+          <p class="lead">
+            <b>Finally,</b> add the javascript code that enables stickUp on your Wordpress Theme.  In my example I'm using the default theme <i>'Twenty Thirteen'</i>.  You'll have to inspect your website's CSS for the correct IDs or Classes you may need.<br><br>
+            Directly below the code that we inserted in the last step, paste the following code snippit.
+          </p>
+          <xmp>
+            <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '#navbar' ID
+                  $('#navbar').stickUp();
+                });
+              });
+
+            </script>
+          </xmp>
+          <p class="lead">
+            <b>Done!</b> That element is now a sticky element.  You can use the other features of the plugin on Wordpress as well, just take a look at the <a href="#one-pager">One Pager</a> and <a href="#extras">Extras</a> section of this website.<br><br>
+            **Specifically look at the Extras feature <i>'marginTop'</i> to add a margin for use with the Wordpress Toolbar, otherwise it may have a conflict.
+          </p>
+        </div>
+      </div> <!-- END WORDPRESS -->
+
+      <!-- START THE FOOTER -->
+      <footer id="contact" class="row featurette">
+        <div class="row">
+        <br>
+          <div class="text-center col-sm-12 col-lg-12">
+            <h2 class="featurette-heading">Stay in touch with us.<br><span class='text-muted'>Feel free to follow.</span></h2>
+            <br><br>   
+          </div>
+          <div class="col-12 col-lg-12">
+            <div class="col-lg-offset-2 col-lg-2 text-center">
+              <a href="http://github.com/LiranCohen/stickUp"><img src="images/icons/Github.png"></a>
+              <h3>GitHub</h3>
+            </div>
+            <div class="col-lg-2 text-center">
+              <a href="http://www.twitter.com/itsLiran"><img src="images/icons/Twitter.png"></a>
+              <h3>Twitter</h3>
+            </div>          
+            <div class="col-lg-2 text-center">
+              <a href="http://plus.google.com/+LiranCohen"><img src="images/icons/Google+.png"></a>
+              <h3>Google+</h3>
+            </div>
+            <div class="col-lg-2 text-center">
+              <a target="_blank" href="mailto:lirancohen@me.com?subject=stickUp%20Contact%20from%20Website"><img src="images/icons/Mail.png"></a>
+              <h3>E-Mail</h3>
+            </div>            
+          </div>
+        </div>   
+        <div class="row">
+          <span class="text-center"><h3 class="featurette-heading">stickUp</h3><h4>a jQuery Plugin</h4></span><br>
+          <div class="text-center col-sm-12 col-lg-12">
+            <p>© 2013 Liran Cohen | This page was proudly built with <a href="http://www.getbootstrap.com">Twitter's Bootstrap</a></p>
+          </div>
+        </div>
+      </footer> <!-- END FOOTER -->
+
+    </div> <!-- END CONTENT -->
+
+
+    <!-- Bootstrap & Plugins core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ### IMPORTANT ### stickUp javascript file -->
+    <!-- ######################################### --> 
+    <script src="js/stickUp.min.js"></script>
+    <!-- ######################################### -->
+
+    <!-- ### IMPORTANT ### stickUp options in use -->
+    <!-- ######################################## -->
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          $('.navbar-wrapper').stickUp({
+                        parts: {
+                          0:'home',
+                          1:'features',
+                          2: 'updates',
+                          3: 'installation',
+                          4: 'one-pager',
+                          5: 'extras',
+                          6: 'wordpress',
+                          7: 'contact'
+                        },
+                        itemClass: 'menuItem',
+                        itemHover: 'active',
+                        topMargin: 'auto'
+                      });
+        });
+      });
+    </script>
+    <!-- ######################################## -->
+  </body>
+</html>
