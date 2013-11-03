@@ -31,7 +31,7 @@
     "bugs": "https://github.com/LiranCohen/stickUp/issues",
     "homepage": "http://lirancohen.github.io/stickUp/",
     "docs": "http://lirancohen.github.io/stickUp/#installation",
-    "download": "http://code.jquery.com/#stickUp",
+    "download": "https://github.com/LiranCohen/stickUp/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.8"
     }
