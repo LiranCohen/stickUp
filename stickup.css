@@ -145,10 +145,37 @@ body {
     font-size: .8em;
   }
 
+
+
 }
 
 @media (max-width: 768px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+      border-color: #398439;
+    }
 
+  .navbar-inverse .navbar-toggle {
+    border:2px solid #398439;
+  }
+
+    .navbar-inverse .navbar-toggle:hover {
+      border:2px solid #398439;
+      background: #398439;
+    }
+
+    .navbar-inverse .navbar-toggle:active {
+      border:2px solid #398439;
+      background: #398439;
+    }
+    .navbar-inverse .navbar-toggle:focus {
+      border:2px solid #398439;
+      background: #398439;
+    }
+
+
+  .navbar {
+    border-radius: 6px;
+  }
     .navbar.navbar-inverse.navbar-static-top a{
     font-size: 1.5em;
   }
