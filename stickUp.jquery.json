@@ -1,0 +1,38 @@
+{
+    "name": "stickUp",
+    "title": "jQuery stickUp",
+    "description": "A jQuery plugin which makes it easy to create a sticky element or navbar. Has anchor features for one-pagers, as well as more.",
+    "keywords": [
+        "menu",
+        "navigation",
+        "fixed",
+        "top",
+        "sticky",
+        "plugin"
+    ],
+    "version": "0.5.5",
+    "author": {
+        "name": "Liran Cohen",
+        "url": "http://lirancohen.github.io/stickUp/"
+    },
+    "maintainers": [
+        {
+            "name": "Liran Cohen",
+            "email": "lirancohen@me.com",
+            "url": "http://www.github.com/lirancohen/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "LGPL",
+            "url": "http://www.gnu.org/licenses/lgpl.html"
+        }
+    ],
+    "bugs": "https://github.com/LiranCohen/stickUp/issues",
+    "homepage": "http://lirancohen.github.io/stickUp/",
+    "docs": "http://lirancohen.github.io/stickUp/#installation",
+    "download": "http://code.jquery.com/#stickUp",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
