@@ -184,6 +184,7 @@ body {
     right: 5% !important;
   }
   .row.featurette {
+    padding-top:20% !important;
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
